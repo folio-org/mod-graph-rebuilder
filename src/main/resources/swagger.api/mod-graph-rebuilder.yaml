@@ -1,0 +1,7 @@
+openapi: 3.0.0
+info:
+  title: Graph Rebuilder API
+  version: v1
+  description: Graph Rebuilder service API
+
+paths: {}

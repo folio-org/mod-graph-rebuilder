@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: mod-graph-rebuilder
+  server:
+    port: 8081
+  datasource:
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+    url: jdbc:postgresql://${DB_HOST:postgres}:${DB_PORT:5432}/${DB_DATABASE:okapi_modules}
+  main:
+    allow-bean-definition-overriding: true
+
+folio:
+  environment: ${ENV:folio}
+  okapiUrl: ${okapi.url}
+  logging:
+    request:
+      enabled: true
+    feign:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,liquibase,threaddump,heapdump,loggers,env,httptrace,metrics,prometheus
+      base-path: /admin
+  endpoint:
+    loggers:
+      enabled: true

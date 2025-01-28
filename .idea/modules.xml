@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mod-graph-rebuilder.iml" filepath="$PROJECT_DIR$/.idea/mod-graph-rebuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-graph-rebuilder.iml" filepath="$PROJECT_DIR$/mod-graph-rebuilder.iml" />
     </modules>
   </component>
 </project>

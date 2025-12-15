@@ -4,6 +4,9 @@
 This software is distributed under the terms of the Apache License, Version 2.0.
 See the file "[LICENSE](LICENSE)" for more information.
 
+## DEPRECATED
+This project has been deprecated and is no longer actively maintained. Currently, the linked data graph does not support rebuild functionality. The project may be revisited in the future as requirements evolve.
+
 ## Introduction
 mod-graph-rebuilder works with mod-linked-date.
 Further description to be added.
